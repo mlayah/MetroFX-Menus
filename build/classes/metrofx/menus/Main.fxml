@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: rgb(55, 55, 55,0.9);" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="metrofx.menus.MainController">
+   <children>
+      <Group layoutX="731.0" layoutY="371.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="115.0" text="Operating Systems" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <HBox layoutX="3.0" layoutY="26.0" spacing="4.0">
+               <children>
+                  <AnchorPane fx:id="windows" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Windows.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Windows" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ubuntu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Ubuntu.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Ubuntu" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="mac" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/mac.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Macintosh" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </Group>
+      <Group layoutX="731.0" layoutY="22.0">
+         <children>
+            <GridPane hgap="2.0" layoutX="1.0" layoutY="32.0" vgap="2.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <AnchorPane fx:id="dynamics" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Dynamics%20CRM.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Dynamics" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="excel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #207245;" styleClass="tile" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Excel%20Online.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Excel" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="lynch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.columnIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Microsoft%20Lync.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Lynch" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="project" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Microsoft%20Project%202010.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Microsoft Project" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="edge" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Microsoft-Outlook-New.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Microsoft Edge" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="outlook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Microsoft-Outlook-New.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Outlook" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="word" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #2A5699;" styleClass="tile" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Word.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Word" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="visualstudio" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #68217A;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Visual-Studio.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Visual Studio 16" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="onenote" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #80397B;" styleClass="tile" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/MS%20OneNote-2013.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="One Note" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <Label prefHeight="17.0" prefWidth="115.0" text="Microsoft Products" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="98.0" layoutY="-54.0">
+         <children>
+            <HBox layoutX="292.0" layoutY="100.0" prefHeight="100.0" prefWidth="316.0" spacing="8.0">
+               <children>
+                  <AnchorPane fx:id="facebook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #3B5998;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Facebook.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Facebook" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="mail" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="208.0" style="-fx-background-color: #6B69D6;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="68.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Mail.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Mail" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <GridPane hgap="8.0" layoutX="292.0" layoutY="209.0" vgap="8.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <AnchorPane fx:id="twitter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1DA1F2;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Twitter-Bird.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Twitter" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="linkedin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/LinkedIn.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Linked in" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="flickr" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/MicroSoft%20Edge.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Flickr" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="yahoo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#switchStage" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #80397B;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Yahoo-01.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Yahoo" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <AnchorPane fx:id="skype" layoutX="508.0" layoutY="209.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile">
+               <children>
+                  <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="18.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/Skype-01.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="5.0" layoutY="128.0" prefHeight="26.0" prefWidth="93.0" text="Skype Preview" textFill="WHITE" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <Label layoutX="292.0" layoutY="75.0" prefHeight="17.0" prefWidth="115.0" text="Life at a Glance" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="153.0" layoutY="25.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="115.0" text="Browse with me" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <GridPane hgap="8.0" layoutY="27.0" vgap="5.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <AnchorPane fx:id="opera" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Opera mini" textFill="WHITE" />
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Opera.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="onedrive" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/OneDrive.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="One Drive" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="notifications" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Bell.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Notifications" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="camera" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Camera-02.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Camera" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="kledy" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Kledy.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Kledy" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="dropbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Drop%20box.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Drop Box" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="android" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Android.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Android" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </Group>
+      <Group layoutX="731.0" layoutY="503.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="115.0" text="Whatsapp" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <HBox layoutX="3.0" layoutY="26.0" spacing="4.0">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Windows" textFill="WHITE" />
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Windows.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Ubuntu" textFill="WHITE" />
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Ubuntu.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile">
+                     <children>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Macintosh" textFill="WHITE" />
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/mac.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </Group>
+      <Group layoutX="390.0" layoutY="388.0">
+         <children>
+            <GridPane hgap="8.0" layoutY="24.0" prefHeight="115.0" prefWidth="316.0" vgap="8.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <AnchorPane fx:id="weather" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #6B69D6;" styleClass="tile">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Weather-02.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="Weather" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="news" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D13438;" styleClass="tile" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/news.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="News" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+                  <AnchorPane fx:id="reader" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #353535;" styleClass="tile" GridPane.columnIndex="2">
+                     <children>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/pdf.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="4.0" layoutY="72.0" prefHeight="26.0" prefWidth="93.0" text="PDF Reader" textFill="WHITE" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <Label prefHeight="17.0" prefWidth="115.0" text="Browse with me" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="21.0" layoutY="487.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/Settings.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="21.0" layoutY="566.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/power.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

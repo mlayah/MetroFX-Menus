@@ -1,0 +1,11 @@
+.root{}
+
+.tile{
+    -fx-border-color: none;
+}
+
+.tile:hover {
+    -fx-border-color: rgb(181, 180, 241);
+    -fx-border-width: 2;    
+}
+

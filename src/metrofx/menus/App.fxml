@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="appMainAnchor" prefHeight="479.0" prefWidth="646.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="metrofx.menus.AppController">
+   <children>
+      <ImageView fx:id="appImageview" fitHeight="125.0" fitWidth="125.0" layoutX="261.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
